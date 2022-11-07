@@ -1,0 +1,26 @@
+#Name:Mahim Ali
+#Email:mahim.ali32@myhunter.cuny.edu
+#Date:November 7,2022
+#This program draws a flower in a recursive function
+
+import turtle
+
+
+def flowerRecursion(t, n):
+  if n > 0:
+    for i in range(0 , n):
+     t.forward(100)
+     t.left(105)
+     t.forward(52)
+     t.left(105)
+     t.forward(100)
+     t.right(170)
+
+def main():
+    flowerRecursion(turtle.Turtle(), 9)
+
+
+
+
+if __name__ == '__main__':
+   main()
